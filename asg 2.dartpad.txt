@@ -1,0 +1,42 @@
+ void main() {
+   print("Name : Huzefa\n ");
+  
+   print("ID : CSC-21S-051\n");
+  
+   double maths = 87;
+   print("Maths = $maths\n");
+  
+   double chemistry = 82;
+   print("Chemistry = $chemistry\n");
+  
+   double physics = 78;
+   print("Physics = $physics\n");
+  
+   double english = 62;
+   print("English = $english\n");
+  
+   double urdu = 65;
+   print("Urdu = $urdu\n");
+  
+   double obt_marks = maths + chemistry + physics + english + urdu;
+   print("Obtain Marks = $obt_marks\n" );
+  
+   double tot_marks = 500;
+   print("Total Marks = $tot_marks\n");
+  
+   double percentage = (obt_marks/tot_marks)*100;
+  print("Percentage = $percentage\n");
+  
+   if(percentage >= 70 && percentage <= 80)
+   {
+     print("A grade");
+    
+   }
+   else if(percentage >=60 && percentage <=70)
+   {
+     print("B grade");
+   }
+  else {
+    print ("C grade");
+  }
+ }
