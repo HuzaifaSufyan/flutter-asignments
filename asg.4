@@ -77,6 +77,52 @@ Answer #9
   }
   }
   
+  Answer #8
+import 'dart:io';
+void main() {
+  
+
+num add,sub,mult,div;
+
+
+
+print("Enter a First Number");
+int a = int.parse(stdin.readLineSync()!);
+
+print("Enter a Second Number");
+int b = int.parse(stdin.readLineSync()!);
+ 
+ add = a+b;
+ sub =a-b;
+ mult =a*b;
+ div = a/b;
+
+
+
+print("Enter the operator ( +,- , *, / )");
+var c = stdin.readLineSync();
+
+
+
+
+if(c== '+'){
+  print(add);
+
+}
+else if(c=='-'){
+  print(sub);
+}
+else if(c=='*'){
+  print(mult);
+}
+else if(c=='/'){
+  print(div);
+}else {
+  print("invalid operation");
+}
+
+ }
+  
 Answer #14
 void main() {
   
